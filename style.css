@@ -32,6 +32,10 @@ body {
     width: 100%;
 }
 
+.contenedorUl a{
+    width: 100%;
+}
+
 .contenedorUl ul {
     display: flex;
     width: 100%;
@@ -94,4 +98,59 @@ h2 {
     border: 1px solid yellow;
     margin-top: 15px;
     color: white;
+}
+
+
+ol a{
+    color:  white;
+}
+
+ol a:hover{
+    color: yellow;
+}
+
+.contenedorCopas{
+    text-align: center;
+    display: grid;
+    width: 200px;
+    height: auto;
+}
+
+.contenedorCopas img{
+    width: 100%;
+}
+
+.contenedorCopas p{
+    font-size: large;
+    font-weight: bold;
+    color: yellow;
+}
+
+.ganadas p{
+    color: white;
+}
+.ganadas .titulo{
+    font-size: x-large;
+    color: rgb(243, 216, 65);
+}
+
+.ganadas ul li::marker {
+    color: yellow;
+}
+
+
+.ganadas ul li{
+    color:  white;
+}
+
+.ganadas  span{
+    color: rgb(160, 160, 160)
+}
+
+table tbody tr td{
+    border:  1px solid white;
+}
+
+table tbody {
+    color:  white;
 }
