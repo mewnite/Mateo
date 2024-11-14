@@ -143,14 +143,62 @@ ol a:hover{
     color:  white;
 }
 
-.ganadas  span{
-    color: rgb(160, 160, 160)
+
+
+.tabla-container {
+    width: 90%;
+    margin: auto;
+    overflow-x: auto;
 }
 
-table tbody tr td{
-    border:  1px solid white;
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #FFC107;
+    background-color: #111;
 }
 
-table tbody {
-    color:  white;
+table td {
+    color: yellow;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #FFC107;
+}
+
+th {
+    background-color: #222;
+}
+
+td {
+    background-color: #333;
+}
+
+
+
+tr:hover td {
+    background-color: #555;
+}
+
+p {
+    margin: 0;
+}
+
+.contenedorEstadios{
+    text-align: center;
+    display: grid;
+    width: 200px;
+    height: auto;
+}
+
+.contenedorEstadios img{
+    width: 100%;
+}
+
+.contenedorEstadios p{
+    font-size: large;
+    font-weight: bold;
+    color: yellow;
 }
